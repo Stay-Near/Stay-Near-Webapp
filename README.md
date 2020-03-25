@@ -1,4 +1,4 @@
-# Python + React [Flask + npm]
+# Python + React [Flask + node]
 
 Python + React is a repo for a quick setup of a web application.
 
