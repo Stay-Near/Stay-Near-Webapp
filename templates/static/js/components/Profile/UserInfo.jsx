@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 const UserInfo = (props) => {
     return (
         <div className="row center-align">
-            <Avatar facebookId="100003900903883" size="150" round={true} />
+            <Avatar facebookId="100003900903883" size="100" round={true} />
             <div className="row center-align">
                 <h5>{props.firstName}</h5>
                 <p>{props.lastName}</p>
