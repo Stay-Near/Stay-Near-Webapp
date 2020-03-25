@@ -1,8 +1,14 @@
+// HomePage
 import React, { Component } from 'react';
+
+import Profile from './Profile/Profile';
+
 export default class Home extends Component {
-    render() {
-       return (
-          <h1>Hello world!</h1>
+   render() {
+      return (
+         <div className="container">
+            <Profile />
+         </div>
        )
-    }
-}
+   }
+};
