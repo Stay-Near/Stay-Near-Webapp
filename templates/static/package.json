@@ -28,7 +28,9 @@
     "history": "^4.10.1",
     "prop-types": "^15.7.2",
     "react-avatar": "^3.9.2",
+    "react-horizontal-scrolling-menu": "^0.7.7",
     "react-ratings-declarative": "^3.4.1",
-    "react-router-dom": "^5.1.2"
+    "react-router-dom": "^5.1.2",
+    "react-ui-cards": "^2.0.0"
   }
 }
