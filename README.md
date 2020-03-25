@@ -8,8 +8,8 @@ Characteristics:
   - Flask (as back-end).
 
 # Cloning
-  - Using HTTP: `git clone https://github.com/cesarau04/python-react-webapp.git`
-  - Using SSH: `git clone git@github.com:cesarau04/python-react-webapp.git`
+  - Using HTTP: `git clone https://github.com/Stay-Near/Stay-Near-Webapp.git`
+  - Using SSH: `git clone git@github.com:Stay-Near/Stay-Near-Webapp.git`
 
 You can also:
   - Download a [zip file][link-zip]
