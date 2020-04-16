@@ -1,0 +1,15 @@
+.bg {
+    height: 100%;
+    margin: 0;
+    /*background-image: url("http://calendario2019.pw/wp-content/uploads/2018/12/calendario-2019-itesm-mas-arriba-a-fecha-escolar-tecnolc2b3gico-de-monterrey-of-calendario-2019-itesm.jpg");*/
+      /* Center and scale the image nicely */
+    background-image: url("../../images/tecBiblio.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .pad {
+   padding-left: 2%;
+   padding-top: 1%;
+ }
