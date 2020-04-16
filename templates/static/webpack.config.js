@@ -22,7 +22,26 @@ const config = {
         }, {
             test: /\.css$/,
             loader: 'style-loader!css-loader?modules'
-        }]
-    }
+        }, { 
+            test: /\.(png|jpg)$/, 
+            loader: 'url-loader' 
+        }
+            
+        
+	]
+    },
+    plugins: [
+    	new webpack.ProvidePlugin({
+        	$: "jquery",
+                jQuery: "jquery",
+                "window.jQuery": "jquery",
+                "Hammer": "hammerjs/hammer",
+                createDayLabel: "jquery",
+                createWeekdayLabel: "jquery",
+                activateOption: "jquery",
+                leftPosition: "jquery"
+        })
+    ]
 };
 module.exports = config;
+
