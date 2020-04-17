@@ -1,12 +1,16 @@
 import React from 'react';
-import { HashRouter, Route, hashHistory } from 'react-router-dom';
-import Home from './views/Home';
+import { Route, hashHistory, BrowserRouter } from 'react-router-dom';
+import Home from 'views/Home';
+import Profile from 'views/Profile'
+import NavBar from 'components/NavBar'
 
 // import more components
 export default (
-    <HashRouter history={hashHistory}>
+    <BrowserRouter history={hashHistory}>
      <div>
-      <Route path='/' component={Home} />
+      <NavBar/>
+      <Route exact path='/' component={Home} />
+      <Route path='/profile' component={Profile} />
      </div>
-    </HashRouter>
+    </BrowserRouter>
 );

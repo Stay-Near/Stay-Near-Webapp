@@ -1,0 +1,16 @@
+.bg{
+    height: 100%;
+    margin: 0;
+    background-image: url("../../images/tecBiblio.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+.bb {
+   position: fixed;
+   left: 5vw;
+   top: 15vh;
+   height: 100%;
+   width: 100%;
+}

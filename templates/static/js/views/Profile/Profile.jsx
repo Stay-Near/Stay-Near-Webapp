@@ -5,7 +5,6 @@ import { NewsHeaderCard } from "react-ui-cards";
 import UserInfo from './UserInfo';
 import ScrollMenu from 'react-horizontal-scrolling-menu';
 
-
 const list = [
     { name: 'Ricardo' },
     { name: 'Milos' },
@@ -62,38 +61,44 @@ class Profile extends React.Component {
 
     render() {
         return (
-            <div className="row">
-                <div className="col s2" />
-                <div className="col s2">
-                    <UserInfo />
-                </div>
-                <div className="col s6">
-                    <h5>Information</h5>
-                    <hr></hr>
-                    <p><b>ID</b>: A0XXXXXXX</p>
-                    <p><b>Carrer</b>: ISC</p>
-                    <p><b>Age</b>: 22</p>
-                    <p><b>Sex</b>: Male</p>
+            <div>
+                <br/>
+                <div className="container">
+                    <div className="row">
+                        <div className="col s2" />
+                        <div className="col s2">
+                            <UserInfo />
+                        </div>
+                        <div className="col s6">
+                            <h5>Information</h5>
+                            <hr></hr>
+                            <p><b>ID</b>: A0XXXXXXX</p>
+                            <p><b>Carrer</b>: ISC</p>
+                            <p><b>Age</b>: 22</p>
+                            <p><b>Sex</b>: Male</p>
 
-                    <br></br><br></br>
-                    <h5>Rooms</h5>
-                    <hr></hr>
-                    <ScrollMenu
-                        data={this.menuItems}
-                        arrowLeft={ArrowLeft}
-                        arrowRight={ArrowRight}
-                        selected={selected}
-                        onSelect={() => { }}
-                    />
+                            <br></br><br></br>
+                            <h5>Rooms</h5>
+                            <hr></hr>
+                            <ScrollMenu
+                                data={this.menuItems}
+                                arrowLeft={ArrowLeft}
+                                arrowRight={ArrowRight}
+                                selected={selected}
+                                onSelect={() => { }}
+                            />
 
-                    <br></br><br></br>
-                    <h5>History</h5>
-                    <hr></hr>
-                    <p><a href="#">Room #1</a> rented by <i>Person #n</i> on Wed, 24 March 2020.</p>
-                    <p><a href="#">Room #2</a> rented by <i>Person #n</i> on Wed, 1 Febreury 2020.</p>
+                            <br></br><br></br>
+                            <h5>History</h5>
+                            <hr></hr>
+                            <p><a href="#">Room #1</a> rented by <i>Person #n</i> on Wed, 24 March 2020.</p>
+                            <p><a href="#">Room #2</a> rented by <i>Person #n</i> on Wed, 1 Febreury 2020.</p>
+                        </div>
+                        <div className="col s2" />
+                    </div>
                 </div>
-                <div className="col s2" />
             </div>
+            
         )
     }
 }
