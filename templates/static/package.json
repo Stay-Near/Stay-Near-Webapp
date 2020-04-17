@@ -28,6 +28,7 @@
     "file-loader": "^6.0.0",
     "history": "^4.10.1",
     "jquery": "^3.5.0",
+    "materialize-css": "^1.0.0-rc.2",
     "prop-types": "^15.7.2",
     "react-avatar": "^3.9.2",
     "react-horizontal-scrolling-menu": "^0.7.7",

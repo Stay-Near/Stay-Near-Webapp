@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const resolve = require('path').resolve;
+const path = require('path');
 const config = {
     devtool: 'eval-source-map',
     entry: __dirname + '/js/index.jsx',
@@ -9,6 +10,7 @@ const config = {
         publicPath: resolve('../public')
     },
     resolve: {
+	modules: [path.resolve(__dirname, './js'), 'node_modules'],
         extensions: ['.js', '.jsx', '.css']
     },
     module: {
