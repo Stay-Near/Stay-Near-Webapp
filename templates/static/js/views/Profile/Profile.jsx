@@ -4,7 +4,6 @@ import { NewsHeaderCard } from "react-ui-cards";
 
 import UserInfo from './UserInfo';
 import ScrollMenu from 'react-horizontal-scrolling-menu';
-import NavBar from '../../components/NavBar/NavBar';
 
 const list = [
     { name: 'Ricardo' },
@@ -63,7 +62,7 @@ class Profile extends React.Component {
     render() {
         return (
             <div>
-                <NavBar />
+                <br/>
                 <div className="container">
                     <div className="row">
                         <div className="col s2" />
