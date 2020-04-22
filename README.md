@@ -47,6 +47,7 @@ $ npm run watch
 ```
 2. In other terminal move to root folder and init flask back-end
 ```sh
+$ source ./env/bin/activate
 $ python3 ./run.py
 ```
 
