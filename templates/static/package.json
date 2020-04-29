@@ -9,7 +9,7 @@
     "dev-build": "webpack --progress -d --config webpack.config.js",
     "watch": "webpack --progress -d --config webpack.config.js --watch"
   },
-  "author": "Cesar Augusto",
+  "author": "Stay Near Team",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
