@@ -11,9 +11,10 @@ class NavBar extends React.Component{
                 <Link to="/" className="brand-logo"><img src={Logo} alt="logo" width="70"/></Link>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
                   <li><Link to="#">Become a Host</Link></li>
-                  <li><Link to="/rooms">Help</Link></li>
+                  <li><Link to="#">Help</Link></li>
                   <li><Link to="#">Sign Up</Link></li>
                   <li><Link to="#">Log in</Link></li>
+                  <li><Link to="/rooms">*temp rooms view*</Link></li>
                   <li><Link to="/profile">*temp profile*</Link></li>
                 </ul>
               </div>
