@@ -20,8 +20,6 @@ export default class RoomsViews extends Component {
                                     <RoomCard/>
                                     <RoomCard/>
                                     <RoomCard/>
-                                    <RoomCard/>
-                                    <RoomCard/>
                                 </div>
                             </div>
                         </div>
