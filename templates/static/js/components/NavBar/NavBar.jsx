@@ -1,8 +1,11 @@
 import React from "react"
 import Logo from "images/logo.png"
 import { Link } from "react-router-dom"
+import M from 'materialize-css'
 
 class NavBar extends React.Component{
+
+
     render(){
         return(
           <div>
@@ -13,12 +16,18 @@ class NavBar extends React.Component{
                   <li><Link to="#">Become a Host</Link></li>
                   <li><Link to="#">Help</Link></li>
                   <li><Link to="#">Sign Up</Link></li>
-                  <li><Link to="#">Log in</Link></li>
+                  <li><Link to={{
+                              pathname: "/login",
+                              state: { modal: true },
+                            }}>
+                               Log in
+                      </Link></li>
+
                   <li><Link to="/profile">*temp profile*</Link></li>
                 </ul>
               </div>
             </nav>
-          </div>
+            </div>
         )
     }
 }
